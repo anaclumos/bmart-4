@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: Roboto, Noto Sans KR, -apple-system, Dotum, sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  outline: none;
+  box-sizing: border-box;
+  webkit-tap-highlight: transparent;
+}
+
+body {
+  color: #444444;
+  /* background-color: #f5f5f7; */
+  background-color: #eff1f3;
+  font-size: 12px;
+}
+
+button {
+  appearance: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+textarea {
+  border: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@font-face {
+  font-family: 'Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/Icons/Icons-Regular.eot');
+  src: url('/fonts/Icons/Icons-Regular.woff2') format('woff2'),
+    url('/fonts/Icons/Icons-Regular.woff') format('woff'),
+    url('/fonts/Icons/Icons-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'BMHANNAPro';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.0/BMHANNAPro.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon {
+  font-family: 'Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1em;
+  vertical-align: baseline;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-feature-settings: 'liga';
+  -moz-font-feature-settings: 'liga=1';
+  -moz-font-feature-settings: 'liga';
+  font-feature-settings: 'liga';
+  text-align: center;
+}
